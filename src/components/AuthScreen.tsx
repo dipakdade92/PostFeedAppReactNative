@@ -19,8 +19,8 @@ import Constant from '../utils/constant';
 const AuthScreen = ({navigation}: any) => {
   const {setUser} = useContext(AuthContext);
 
-  const [email, setEmail] = useState<string>('dipakdev094@gmail.com');
-  const [password, setPassword] = useState<string>('Birla22@');
+  const [email, setEmail] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
   const [error, setError] = useState<string | null>(null);
 
   const handleLogin = async () => {

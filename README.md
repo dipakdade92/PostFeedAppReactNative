@@ -98,4 +98,10 @@ To learn more about React Native, take a look at the following resources:
   7. Add Two policy for SELECT and INSERT the rows into the table.
   8. Enable the permission of realtime database on.
 
+  Two test account login details:
+  Email : test1@yopmail.com
+  Password : test1@
+  Email : test2@yopmail.com
+  Password : test1@
+
   Thankyou
