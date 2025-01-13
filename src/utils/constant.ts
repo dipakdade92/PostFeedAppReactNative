@@ -1,6 +1,7 @@
 const Constant = {
   writeMessage: 'Write a feed...',
   Done: 'Done',
+  userName: 'User Name',
   Login: 'Login',
   PostFeeds: 'Post Feeds',
   Add: 'Add',
@@ -10,6 +11,13 @@ const Constant = {
   WriteAFeed: 'Write a feed...',
   Email: 'Email',
   Password: 'Password',
+  SignUp: 'SignUp',
+  alreayHaveAnAccount: 'Alreay have an account ? ',
+  logIn: 'Log In',
+  Okay: 'Okay',
+  ProfileCreated: 'Profile Created',
+  Successfully: 'Successfully',
+  doYouHaveAnAccount: 'Do you have an account ? ',
 };
 
 export default Constant;

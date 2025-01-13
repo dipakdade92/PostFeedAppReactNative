@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import PostFeed from '../components/PostFeed';
 import AuthScreen from '../components/AuthScreen';
 import {navigationRef} from '../utils/navigationRef';
+import SignUp from '../components/SignUp';
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +15,11 @@ const AppNavigator = () => {
         <Stack.Screen
           name="AuthScreen"
           component={AuthScreen}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Singup"
+          component={SignUp}
           options={{headerShown: false}}
         />
         <Stack.Screen
